@@ -105,7 +105,7 @@ Real clips often use fewer triggers because of the per-pixel change detection.
 
 ### Silent black level base
 
-The generated level always uses internal audio track `100`, which is intentionally silent. Background, ground, second ground, line, and default object colours are initialized as black. No custom song or template data is used.
+The generated level uses Newgrounds custom-song ID `1600001` by default. This ID was checked as unavailable (a Newgrounds `404` response), so it does not point to a playable Newgrounds track. Background, ground, second ground, line, and default object colours are initialized as black. No template data is used.
 
 ## Important limits and recommendations
 
